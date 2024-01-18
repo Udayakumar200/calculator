@@ -1,0 +1,29 @@
+.calculator {
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: #1c7ad7; 
+    padding: 20px;
+    border-radius: 12px;
+}
+
+#display {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 40 px; 
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row button {
+    margin: 20px; 
+    flex: 0 0 calc(33% - 40px); 
+}
+.memory-button {
+    margin: 40px; 
+    width: 110%;
+    
+}
